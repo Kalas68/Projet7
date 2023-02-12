@@ -1,0 +1,15 @@
+.notFound{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+    p, h1, .menuReturn{
+        color:#FF6060;
+    }
+    h1{
+        font-size: 150px;
+    }
+    p{
+        font-size: 25px;
+    }
+}

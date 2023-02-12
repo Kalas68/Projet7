@@ -1,0 +1,22 @@
+html{
+  height:100%;
+  max-width: 1400px;
+  margin: auto;
+}
+body {
+    margin: 0;
+    font-family: "Montserrat", 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  h2, span {
+    color : #FF6060;
+  }

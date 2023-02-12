@@ -1,0 +1,86 @@
+.infos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+    .colonne1{
+        width: 50%;
+        .tags{
+            margin-top: 20px;
+            .tag{
+                white-space:nowrap;
+                color: white;
+                background-color:#FF6060;
+                border-radius: 10px;
+                padding: 5px;
+                margin-right: 20px;
+            }
+        }
+        
+    }
+    .colonne2{
+        display: flex;
+        flex-direction: column;
+        .host{
+            display: flex;
+            
+            .hostPicture{
+                border-radius: 50%;
+                transform: scale(0.75)
+            }
+            .hostName{
+                margin: auto;
+                display: flex;
+                vertical-align: middle;
+                justify-content: center;
+            }
+        }
+        .stars{
+            display:flex;
+            justify-content: flex-end;         
+            li{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                width:15%;
+            }
+        }
+    }
+}
+
+.descriptionEquipements{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 25px;
+    
+}
+
+@media screen and (max-width :820px){
+
+  }
+  
+  @media screen and (max-width :670px){
+    .infos{
+        flex-direction: column;
+        .colonne1{
+            width: 100%;
+        }
+        .colonne2{
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            .stars{
+                align-items: center;
+                justify-content: space-between;
+                width:30%;
+            }
+            .host img{
+                scale: 0.75;
+            }
+        }
+    }
+    .descriptionEquipements{
+        flex-direction: column;
+        .collapseContainer{
+            width:100%;
+        }
+    }
+  }

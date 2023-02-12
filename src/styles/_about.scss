@@ -1,0 +1,16 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .about_collapses {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        .collapseContainer{
+            width: 70%;
+        }
+    }
+}
